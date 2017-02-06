@@ -31,7 +31,7 @@ function main_init() {
 	// preparing geometry
 	geometry = new THREE.Geometry();
 	// loading texture
-	var texture = THREE.ImageUtils.loadTexture('images/clouds.png');
+	var texture = THREE.ImageUtils.loadTexture('images/clouds.png', {}, function () { renderer.render(scene, camera); });
 	texture.magFilter = THREE.LinearMipMapLinearFilter;
 	texture.minFilter = THREE.LinearMipMapLinearFilter;
 	// preparing fog

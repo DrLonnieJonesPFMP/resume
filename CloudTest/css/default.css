@@ -28,6 +28,10 @@ h3 {
 	margin-top: 0px;
 }
 
+hr {
+	width: 100%;
+}
+
 #printer{
 	text-align:right;
 	display: inline;
@@ -143,7 +147,6 @@ footer .stuts span {
 
 canvas {
 	position: absolute;
-	/* FIX THIS LATER*/
-	top: 30%;
+	top: 0%;
 	z-index: 0;
 }
