@@ -1,0 +1,136 @@
+﻿*{
+	margin:0;
+	padding:0;
+	color:#757575;
+}
+
+a {
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #007acc;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	margin: 10px;
+	margin-top: 0px;
+}
+h3 {
+    font-size: medium;
+	font-style: italic;
+	margin: 10px;
+	margin-top: 0px;
+}
+
+h4 {
+}
+
+div#cloudFX{
+    text-align: center;
+}
+
+div#resume{
+	position: relative;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+	text-indent: 17%;
+	z-index: 2;
+}
+
+body {
+	color:#fff;
+	font-family: "Open Sans", Helvetica, Monospace, "Courier New";
+	background-image: url(../images/clouds.jpg);
+	background-color:#000007;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto auto;
+	background-attachment:fixed;
+	color: #fff;
+	text-shadow: #000 1px 1px 1.7px;
+	background-position-y: 45px;
+	overflow:hidden;
+}
+
+li {
+    font-size: small;
+	list-style-type: none;
+}
+ol, ul {
+	margin-top: 10px;
+	margin: 5px;
+}
+
+p {
+	
+	opacity: 0.6;
+	outline-width: 0.5px;
+	outline-color: #660007;
+	box-shadow: #000007 5px 5px 10px;
+	fill:white;
+	fill-opacity:inherit;
+	outline:thin;
+	outline-width: 0.5px;
+	outline-color: #000007;
+	text-align:center;
+}
+
+div.resume {
+	text-indent: 17%;
+}
+
+
+footer {
+	background-color:#212121;
+	bottom:0;
+	box-shadow: 0 -1px 2px #111111;
+	display:block;
+	height:70px;
+	left:0;
+	position:fixed;
+	width:100%;
+	z-index:1;
+}
+
+footer h2{
+	font-size:22px;
+	font-weight:normal;
+	left:50%;
+	margin-left:-400px;
+	padding:22px 0;
+	position:absolute;
+	width:540px;
+}
+
+footer a.stuts,a.stuts:visited{
+	border:none;
+	text-decoration:none;
+	color:#fcfcfc;
+	font-size:14px;
+	left:50%;
+	line-height:31px;
+	margin:23px 0 0 110px;
+	position:absolute;
+	top:0;
+}
+
+footer .stuts span {
+	font-size:22px;
+	font-weight:bold;
+	margin-left:5px;
+}
+
+canvas {
+	position: absolute;
+	/* FIX THIS LATER*/
+	top: 30%;
+	z-index: 0;
+}
