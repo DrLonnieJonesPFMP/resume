@@ -1,3 +1,5 @@
+/* START 3D CLOUDS */
+
 // inner variables
 var canvas, ctx;
 var camera, scene, renderer, meshMaterial, mesh, geometry, i;
